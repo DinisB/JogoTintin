@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "280e03fe-7133-40ea-9b3a-c410c3696bfc",
+  "name": "track",
+  "symbol": "bg_track",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "track.png",
+  "tileColors": "",
+  "autoColor": false
+}

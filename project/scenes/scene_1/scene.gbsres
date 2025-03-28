@@ -3,7 +3,7 @@
   "id": "534eae5a-dbdb-4fa9-83cc-5f956bf512bb",
   "_index": 0,
   "name": "Scene 1",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "backgroundId": "280e03fe-7133-40ea-9b3a-c410c3696bfc",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -18,5 +18,6 @@
   "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
 }
