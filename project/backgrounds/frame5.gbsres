@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "90b7e2c3-1edb-4670-9222-f4bc3fe1aaab",
+  "name": "frame5",
+  "symbol": "bg_frame5",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "frame5.png",
+  "tileColors": ""
+}
