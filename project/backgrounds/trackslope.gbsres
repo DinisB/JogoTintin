@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "adf5c664-ccc2-419d-9a94-45b24872a04b",
+  "name": "trackslope",
+  "symbol": "bg_trackslope",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "trackslope.png",
+  "tileColors": ""
+}
