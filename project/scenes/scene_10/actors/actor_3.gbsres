@@ -21,7 +21,7 @@
     {
       "command": "EVENT_IF_ACTOR_RELATIVE_TO_ACTOR",
       "args": {
-        "actorId": "23c40e0a-96dc-4714-9fb4-8912aa523c09",
+        "actorId": "a7db8db5-2973-4674-9e01-1a985380290e",
         "operation": "right",
         "otherActorId": "$self$",
         "__collapseElse": true
