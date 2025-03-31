@@ -11,7 +11,7 @@
   "animSpeed": 15,
   "paletteId": "",
   "isPinned": false,
-  "persistent": false,
+  "persistent": true,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "symbol": "actor_6",
@@ -21,7 +21,7 @@
     {
       "command": "EVENT_IF_ACTOR_RELATIVE_TO_ACTOR",
       "args": {
-        "actorId": "player",
+        "actorId": "bbe1d1bc-179b-48ef-904c-9bdb834765fe",
         "operation": "right",
         "otherActorId": "$self$",
         "__collapseElse": true
