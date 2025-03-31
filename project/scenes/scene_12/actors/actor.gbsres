@@ -18,16 +18,6 @@
   "script": [],
   "startScript": [
     {
-      "command": "EVENT_TEXT_DRAW",
-      "args": {
-        "text": "press A and B",
-        "x": 1,
-        "y": 1,
-        "location": "background"
-      },
-      "id": "8d70160d-4c63-40c4-9627-5f93b6edfb49"
-    },
-    {
       "command": "EVENT_SET_VALUE",
       "args": {
         "variable": "T0",
