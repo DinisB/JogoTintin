@@ -19,17 +19,11 @@
   "startScript": [],
   "updateScript": [
     {
-      "command": "EVENT_IF_ACTOR_AT_POSITION",
+      "command": "EVENT_IF_ACTOR_RELATIVE_TO_ACTOR",
       "args": {
-        "actorId": "bbe1d1bc-179b-48ef-904c-9bdb834765fe",
-        "x": {
-          "type": "number",
-          "value": 17
-        },
-        "y": {
-          "type": "number",
-          "value": 6
-        },
+        "actorId": "player",
+        "operation": "right",
+        "otherActorId": "$self$",
         "__collapseElse": true
       },
       "children": {
@@ -37,7 +31,7 @@
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "9e60a666-4045-44f0-8cdf-1c7a8bc5f1a0",
+              "sceneId": "d30172a0-5d79-4ad0-8a78-295037efece0",
               "x": {
                 "type": "number",
                 "value": 0
@@ -49,18 +43,18 @@
               "direction": "",
               "fadeSpeed": "2"
             },
-            "id": "7996f894-11a4-4531-84e1-09f901fd7b46"
+            "id": "9e25b9dc-f7ae-409d-9dcb-4a3fcc035f3f"
           }
         ],
         "false": []
       },
-      "id": "5bdcaf2d-0fe2-4b76-938b-ad38c507dcd3"
+      "id": "ced62e77-528f-4932-8c06-852805c54afe"
     }
   ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 17,
+  "x": 18,
   "y": 6,
   "_index": 1
 }
