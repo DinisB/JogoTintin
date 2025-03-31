@@ -98,7 +98,7 @@
                   "args": {
                     "actorId": "$self$",
                     "spriteStateId": "New State",
-                    "loopAnim": true
+                    "loopAnim": false
                   },
                   "id": "ee2ad644-83da-440e-bfea-57c6db7d5923"
                 }
@@ -171,7 +171,7 @@
                   "args": {
                     "actorId": "$self$",
                     "spriteStateId": "",
-                    "loopAnim": true
+                    "loopAnim": false
                   },
                   "id": "d8cb2526-5eab-44ad-8b4b-6e5e292fa81e"
                 }
