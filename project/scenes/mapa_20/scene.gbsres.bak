@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "c1ab3598-249b-44b9-9f30-48c14ff0c99a",
+  "_index": 19,
+  "name": "Mapa 20",
+  "backgroundId": "c279719f-9a24-412f-a661-944be657432c",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "PLATFORM",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00f0+0f14+0064+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_20",
+  "x": 1256,
+  "y": 432,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "8beec6c8-12c7-4a96-8d0c-9cda8b11ecc9"
+}

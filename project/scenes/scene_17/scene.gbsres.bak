@@ -15,8 +15,42 @@
   "symbol": "scene_17",
   "x": 896,
   "y": 440,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1,
+        "frames": 30
+      },
+      "id": "8f70aa8a-8631-425a-94a5-3ec67a7c0639"
+    },
+    {
+      "command": "EVENT_FADE_OUT",
+      "args": {
+        "speed": "2"
+      },
+      "id": "e1d93cc1-91ca-47f5-a230-18f8e03f8ea5"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "5b26f8c3-edaa-42bf-8124-12a984d3e3b4",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 11
+        },
+        "direction": "right",
+        "fadeSpeed": "2"
+      },
+      "id": "232c5436-5e6c-485a-8287-6cd8389ba16c"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "8beec6c8-12c7-4a96-8d0c-9cda8b11ecc9"
 }
