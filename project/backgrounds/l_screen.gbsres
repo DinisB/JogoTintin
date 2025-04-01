@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "e9f06183-24bd-4540-a672-bea353932735",
+  "name": "L_screen",
+  "symbol": "bg_l_screen",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "L_screen.png",
+  "tileColors": ""
+}

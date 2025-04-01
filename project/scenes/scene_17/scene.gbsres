@@ -15,7 +15,23 @@
   "symbol": "scene_17",
   "x": 896,
   "y": 440,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1,
+        "frames": 30
+      },
+      "id": "8f70aa8a-8631-425a-94a5-3ec67a7c0639"
+    },
+    {
+      "command": "EVENT_FADE_OUT",
+      "args": {
+        "speed": 2
+      },
+      "id": "e53c95c6-32ca-4ede-b9a3-bd9924bd709d"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": []
