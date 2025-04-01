@@ -1,13 +1,13 @@
 {
   "_resourceType": "background",
-  "id": "b2493e7f-1dde-4278-845e-c6cd17ae46bf",
-  "name": "traintrack",
-  "symbol": "bg_traintrack",
+  "id": "85ee3750-d275-40ee-bb57-cc42e9d47f7b",
+  "name": "track with hole",
+  "symbol": "bg_track_c_pia",
   "width": 20,
   "height": 18,
   "imageWidth": 160,
   "imageHeight": 144,
-  "filename": "traintrack.png",
+  "filename": "track with hole.png",
   "tileColors": "",
   "autoColor": false
 }

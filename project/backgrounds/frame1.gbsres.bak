@@ -1,13 +1,13 @@
 {
   "_resourceType": "background",
-  "id": "b2493e7f-1dde-4278-845e-c6cd17ae46bf",
-  "name": "traintrack",
-  "symbol": "bg_traintrack",
+  "id": "2e3c54a7-6e2b-40c7-bc85-9543c5d78582",
+  "name": "frame1",
+  "symbol": "bg_frame1",
   "width": 20,
   "height": 18,
   "imageWidth": 160,
   "imageHeight": 144,
-  "filename": "traintrack.png",
+  "filename": "frame1.png",
   "tileColors": "",
   "autoColor": false
 }

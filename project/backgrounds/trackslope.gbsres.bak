@@ -1,13 +1,13 @@
 {
   "_resourceType": "background",
-  "id": "b2493e7f-1dde-4278-845e-c6cd17ae46bf",
-  "name": "traintrack",
-  "symbol": "bg_traintrack",
+  "id": "adf5c664-ccc2-419d-9a94-45b24872a04b",
+  "name": "trackslope",
+  "symbol": "bg_trackslope",
   "width": 20,
   "height": 18,
   "imageWidth": 160,
   "imageHeight": 144,
-  "filename": "traintrack.png",
+  "filename": "trackslope.png",
   "tileColors": "",
   "autoColor": false
 }
