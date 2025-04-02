@@ -1,9 +1,9 @@
 {
   "_resourceType": "scene",
-  "id": "43a1d8b8-2a96-48d8-86e7-a18ac12485c8",
-  "_index": 17,
-  "name": "Mapa 18",
-  "backgroundId": "e9f06183-24bd-4540-a672-bea353932735",
+  "id": "c5bc3507-8957-4a12-a02a-d56ad7f3f714",
+  "_index": 21,
+  "name": "Scene 22",
+  "backgroundId": "ddd03297-3b66-43ca-bf59-3c61124be099",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -12,9 +12,9 @@
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_18",
-  "x": 1256,
-  "y": 264,
+  "symbol": "scene_22",
+  "x": 1288,
+  "y": 80,
   "script": [
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -30,7 +30,7 @@
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "c5bc3507-8957-4a12-a02a-d56ad7f3f714",
+              "sceneId": "64916910-3646-4cd8-892e-09aa2fa64862",
               "x": {
                 "type": "number",
                 "value": 0
@@ -42,11 +42,11 @@
               "direction": "",
               "fadeSpeed": "2"
             },
-            "id": "e2cbf72c-b02d-4123-963a-4c3ca5504038"
+            "id": "eff89899-2f76-4213-84df-677b9de9ad9a"
           }
         ]
       },
-      "id": "8cd73200-ba7c-42f0-b449-916d2a7881a1"
+      "id": "1b46401a-3ff8-4fee-aa3e-1ae36b9a622a"
     }
   ],
   "playerHit1Script": [],
