@@ -59,7 +59,7 @@
                   "type": "true"
                 }
               },
-              "__collapseElse": true
+              "__collapseElse": false
             },
             "children": {
               "true": [
@@ -79,7 +79,8 @@
                           "variable": "T0",
                           "value": {
                             "type": "true"
-                          }
+                          },
+                          "__collapse": false
                         },
                         "id": "d757872a-7cd6-4d38-ba0d-0c394cf9e6a1"
                       },
@@ -96,7 +97,8 @@
                             "value": 0
                           },
                           "moveType": "horizontal",
-                          "useCollisions": false
+                          "useCollisions": false,
+                          "__collapse": false
                         },
                         "id": "6ffc7f85-9806-49c1-ad85-caeb2959f2f4"
                       },
@@ -105,7 +107,8 @@
                         "args": {
                           "actorId": "$self$",
                           "spriteStateId": "New State",
-                          "loopAnim": false
+                          "loopAnim": false,
+                          "__collapse": false
                         },
                         "id": "b638dc17-2ad5-4b2a-8e15-43096e012f18"
                       },
@@ -132,7 +135,15 @@
                   "id": "fe5a4114-f65b-49e5-ab01-1525fcfa4299"
                 }
               ],
-              "false": []
+              "false": [
+                {
+                  "command": "EVENT_DEC_VALUE",
+                  "args": {
+                    "variable": "L0"
+                  },
+                  "id": "6ee0cf8a-e277-4e00-81d4-06f5e3217fe7"
+                }
+              ]
             },
             "id": "a43e753b-2f71-408b-a2c8-7967f6b838a2"
           }
@@ -171,7 +182,7 @@
                   "type": "true"
                 }
               },
-              "__collapseElse": true
+              "__collapseElse": false
             },
             "children": {
               "true": [
@@ -244,7 +255,15 @@
                   "id": "682454d6-bcba-4dce-bc9c-b3e63e17cce6"
                 }
               ],
-              "false": []
+              "false": [
+                {
+                  "command": "EVENT_DEC_VALUE",
+                  "args": {
+                    "variable": "L0"
+                  },
+                  "id": "cfbbe3b9-8cd9-48bd-bcc3-74f90df8f720"
+                }
+              ]
             },
             "id": "2555c805-775b-491f-8c6a-d827a70d0634"
           }
