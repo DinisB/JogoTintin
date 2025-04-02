@@ -135,15 +135,7 @@
                   "id": "fe5a4114-f65b-49e5-ab01-1525fcfa4299"
                 }
               ],
-              "false": [
-                {
-                  "command": "EVENT_DEC_VALUE",
-                  "args": {
-                    "variable": "L0"
-                  },
-                  "id": "6ee0cf8a-e277-4e00-81d4-06f5e3217fe7"
-                }
-              ]
+              "false": []
             },
             "id": "a43e753b-2f71-408b-a2c8-7967f6b838a2"
           }
@@ -255,15 +247,7 @@
                   "id": "682454d6-bcba-4dce-bc9c-b3e63e17cce6"
                 }
               ],
-              "false": [
-                {
-                  "command": "EVENT_DEC_VALUE",
-                  "args": {
-                    "variable": "L0"
-                  },
-                  "id": "cfbbe3b9-8cd9-48bd-bcc3-74f90df8f720"
-                }
-              ]
+              "false": []
             },
             "id": "2555c805-775b-491f-8c6a-d827a70d0634"
           }
