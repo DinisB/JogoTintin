@@ -135,7 +135,15 @@
                   "id": "ff6e16d3-f07e-468e-8414-ab9d326d2c03"
                 }
               ],
-              "false": []
+              "false": [
+                {
+                  "command": "EVENT_DEC_VALUE",
+                  "args": {
+                    "variable": "L0"
+                  },
+                  "id": "538f20cd-3830-43a0-bce0-fb5728177ebc"
+                }
+              ]
             },
             "id": "f8d720d9-4262-48ec-b313-fba3a2841f97"
           }
@@ -239,6 +247,13 @@
                     "useCollisions": false
                   },
                   "id": "21d6e2a7-27ff-426f-b021-da88433172d6"
+                },
+                {
+                  "command": "EVENT_DEC_VALUE",
+                  "args": {
+                    "variable": "L0"
+                  },
+                  "id": "8b5481be-bfb0-44d7-b99d-d712d025b8f1"
                 }
               ],
               "false": []

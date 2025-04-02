@@ -1,4 +1,15 @@
 {
   "_resourceType": "variables",
-  "variables": []
+  "variables": [
+    {
+      "id": "0",
+      "name": "Insert",
+      "symbol": "var_insert"
+    },
+    {
+      "id": "1",
+      "name": "Item",
+      "symbol": "var_item"
+    }
+  ]
 }

@@ -16,7 +16,19 @@
   "prefabScriptOverrides": {},
   "symbol": "actor_6",
   "script": [],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "a0cca370-968e-428f-844d-0673e83e26d8"
+    }
+  ],
   "updateScript": [
     {
       "command": "EVENT_IF_ACTOR_RELATIVE_TO_ACTOR",
@@ -49,6 +61,46 @@
         "false": []
       },
       "id": "ced62e77-528f-4932-8c06-852805c54afe"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": -2
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "43a1d8b8-2a96-48d8-86e7-a18ac12485c8",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "a0021728-1ef2-47ea-926d-06e9522b6ab8"
+          }
+        ],
+        "false": []
+      },
+      "id": "96d43e1d-3a51-4c48-af89-b753cbf13104"
     }
   ],
   "hit1Script": [],
