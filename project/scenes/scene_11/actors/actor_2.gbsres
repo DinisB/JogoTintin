@@ -33,6 +33,17 @@
         "actorId": "$self$"
       },
       "id": "95988622-6aa9-46b6-b9e6-454b58e70d2a"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "759139e6-56fc-439e-a68d-b356a46a66c0"
     }
   ],
   "updateScript": [
