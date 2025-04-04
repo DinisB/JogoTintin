@@ -286,7 +286,7 @@
           },
           "valueB": {
             "type": "number",
-            "value": -4
+            "value": -20
           }
         },
         "__collapseElse": true
