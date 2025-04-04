@@ -65,7 +65,7 @@
     {
       "command": "EVENT_IF_ACTOR_RELATIVE_TO_ACTOR",
       "args": {
-        "actorId": "bbe1d1bc-179b-48ef-904c-9bdb834765fe",
+        "actorId": "c5b607fa-3437-4cf8-bab3-d63f7c0d67c5",
         "operation": "down",
         "otherActorId": "$self$",
         "__collapseElse": false
