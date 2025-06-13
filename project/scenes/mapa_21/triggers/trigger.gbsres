@@ -81,23 +81,131 @@
         ],
         "false": [
           {
-            "command": "EVENT_IF",
+            "command": "EVENT_IF_FLAGS_COMPARE",
             "args": {
-              "condition": {
-                "type": "eq",
-                "valueA": {
-                  "type": "variable",
-                  "value": "1"
-                },
-                "valueB": {
-                  "type": "number",
-                  "value": 0
-                }
-              },
+              "variable": "1",
+              "flag": 0,
               "__collapseElse": false
             },
             "children": {
               "true": [
+                {
+                  "command": "EVENT_IF_FLAGS_COMPARE",
+                  "args": {
+                    "variable": "1",
+                    "flag": 1,
+                    "__collapseElse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_IF_FLAGS_COMPARE",
+                        "args": {
+                          "variable": "1",
+                          "flag": 2,
+                          "__collapseElse": false
+                        },
+                        "children": {
+                          "true": [],
+                          "false": [
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": [
+                                  "You don't have\nitems."
+                                ],
+                                "__section": "text",
+                                "avatarId": "",
+                                "minHeight": 4,
+                                "maxHeight": 7,
+                                "textX": 1,
+                                "textY": 1,
+                                "textHeight": 5,
+                                "position": "bottom",
+                                "clearPrevious": true,
+                                "showFrame": "true",
+                                "speedIn": -1,
+                                "speedOut": -1,
+                                "closeWhen": "key",
+                                "closeButton": "a",
+                                "closeDelayTime": 0.5,
+                                "closeDelayFrames": 30,
+                                "__collapse": false
+                              },
+                              "id": "d3d98f56-5537-4b67-ad1d-8efb1693500d"
+                            },
+                            {
+                              "command": "EVENT_ACTOR_MOVE_TO",
+                              "args": {
+                                "actorId": "$self$",
+                                "x": {
+                                  "type": "number",
+                                  "value": 16
+                                },
+                                "y": {
+                                  "type": "number",
+                                  "value": 11
+                                },
+                                "moveType": "horizontal",
+                                "useCollisions": false
+                              },
+                              "id": "a3f58581-5e90-4bbc-b92b-fb08d6a0cf22"
+                            }
+                          ]
+                        },
+                        "id": "d5ee4419-f1fd-4f58-869e-120c1255c804"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "You don't have\nitems."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": false
+                        },
+                        "id": "76380472-fa8b-431d-9c20-a9f89bc30dd7"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_MOVE_TO",
+                        "args": {
+                          "actorId": "$self$",
+                          "x": {
+                            "type": "number",
+                            "value": 16
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 11
+                          },
+                          "moveType": "horizontal",
+                          "useCollisions": false
+                        },
+                        "id": "0cd1555d-45ee-4bf7-aa2f-ee16142d615d"
+                      }
+                    ]
+                  },
+                  "id": "48de10d4-f554-4c6e-9f7a-b6cf449fbc7e"
+                }
+              ],
+              "false": [
                 {
                   "command": "EVENT_TEXT",
                   "args": {
@@ -119,7 +227,8 @@
                     "closeWhen": "key",
                     "closeButton": "a",
                     "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30
+                    "closeDelayFrames": 30,
+                    "__collapse": false
                   },
                   "id": "b7686328-93d5-48c4-a2a7-2a40dc0c1bf4"
                 },
@@ -140,10 +249,9 @@
                   },
                   "id": "d9394d2d-bc67-499d-856d-8eae031cc31d"
                 }
-              ],
-              "false": []
+              ]
             },
-            "id": "66671df2-4cef-415d-a90f-cca9afd51454"
+            "id": "e655720f-21f7-429e-87da-21f7d3307a69"
           }
         ]
       },
