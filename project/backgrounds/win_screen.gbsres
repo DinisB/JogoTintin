@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "2315cf23-2078-4dcb-8a40-9284a0f8a271",
+  "name": "win_screen",
+  "symbol": "sprite_win_screen",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "win_screen.png",
+  "tileColors": "",
+  "autoColor": false
+}

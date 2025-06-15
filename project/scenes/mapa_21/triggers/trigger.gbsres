@@ -106,7 +106,25 @@
                           "__collapseElse": false
                         },
                         "children": {
-                          "true": [],
+                          "true": [
+                            {
+                              "command": "EVENT_SWITCH_SCENE",
+                              "args": {
+                                "sceneId": "fce401db-aac2-4ebe-96ab-197a85f8c4d3",
+                                "x": {
+                                  "type": "number",
+                                  "value": 0
+                                },
+                                "y": {
+                                  "type": "number",
+                                  "value": 0
+                                },
+                                "direction": "",
+                                "fadeSpeed": "2"
+                              },
+                              "id": "06af904f-4688-415f-a08a-4c22ae55f802"
+                            }
+                          ],
                           "false": [
                             {
                               "command": "EVENT_TEXT",
