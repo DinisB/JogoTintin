@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "ddd03297-3b66-43ca-bf59-3c61124be099",
+  "name": "tintin_poster_12",
+  "symbol": "bg_tintin_poster_12",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "tintin_poster_12.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "1b9f20e9-48e7-4394-85ee-1de3224a845e",
+  "_index": 20,
+  "name": "Mapa 21",
+  "backgroundId": "4b9757a7-2ba1-42f1-bd27-23db6c1b4f99",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "PLATFORM",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00f0+0f14+0064+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_21",
+  "x": 1024,
+  "y": 432,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "8beec6c8-12c7-4a96-8d0c-9cda8b11ecc9"
+}

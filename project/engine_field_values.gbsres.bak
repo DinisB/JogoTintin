@@ -4,6 +4,10 @@
     {
       "id": "fade_style",
       "value": 1
+    },
+    {
+      "id": "plat_jump_vel",
+      "value": 0
     }
   ]
 }

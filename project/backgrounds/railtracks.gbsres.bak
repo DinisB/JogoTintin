@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "c279719f-9a24-412f-a661-944be657432c",
+  "name": "railtracks",
+  "symbol": "bg_railtracks",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "railtracks.png",
+  "tileColors": "",
+  "autoColor": false
+}

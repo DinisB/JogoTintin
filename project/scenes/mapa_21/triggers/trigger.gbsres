@@ -130,7 +130,7 @@
                               "command": "EVENT_TEXT",
                               "args": {
                                 "text": [
-                                  "You don't have\nitems."
+                                  "Collect all 3 \nitems."
                                 ],
                                 "__section": "text",
                                 "avatarId": "",
@@ -179,7 +179,7 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "You don't have\nitems."
+                            "Collect all 3 \nitems."
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -228,7 +228,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "You don't have\nitems."
+                      "Collect all 3 \nitems."
                     ],
                     "__section": "text",
                     "avatarId": "",

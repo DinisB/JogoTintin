@@ -1,62 +1,60 @@
 {
   "_resourceType": "actor",
-  "id": "3cff6300-d78b-4086-a457-eb6733918541",
+  "id": "b96dee64-fe77-42bb-a930-d41786035472",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "51750332-e98b-4862-b816-16c623105343",
+  "spriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
-  "isPinned": true,
-  "persistent": false,
+  "isPinned": false,
+  "persistent": true,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_16",
+  "symbol": "actor_10",
   "script": [],
   "startScript": [],
   "updateScript": [
     {
-      "command": "EVENT_IF_INPUT",
+      "command": "EVENT_IF_ACTOR_RELATIVE_TO_ACTOR",
       "args": {
-        "input": [
-          "a"
-        ],
-        "__collapseElse": false
+        "actorId": "a7db8db5-2973-4674-9e01-1a985380290e",
+        "operation": "right",
+        "otherActorId": "$self$",
+        "__collapseElse": true
       },
       "children": {
         "true": [
           {
-            "command": "EVENT_ACTOR_SET_STATE",
+            "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "actorId": "$self$",
-              "spriteStateId": "New State",
-              "loopAnim": true
+              "sceneId": "8f6e9e9b-abb2-48ce-94a4-3283f7667504",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
             },
-            "id": "e6c408d6-4696-4f08-9e8b-8b3420b40485"
+            "id": "d687fe0d-3f25-4637-928f-6f2929ed4b7a"
           }
         ],
-        "false": [
-          {
-            "command": "EVENT_ACTOR_SET_STATE",
-            "args": {
-              "actorId": "$self$",
-              "spriteStateId": "",
-              "loopAnim": true
-            },
-            "id": "4263fe9a-0e0d-4075-94c1-a09d7500f494"
-          }
-        ]
+        "false": []
       },
-      "id": "64d4de14-a33a-4dba-8fbd-dce7e17749a1"
+      "id": "f6736e78-ba28-4412-8bf9-5142a7d441b0"
     }
   ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 1,
-  "y": 3,
+  "x": 18,
+  "y": 12,
   "_index": 2
 }

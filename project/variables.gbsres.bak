@@ -9,7 +9,10 @@
     {
       "id": "1",
       "name": "Item",
-      "symbol": "var_item"
+      "symbol": "var_item",
+      "flags": {
+        "flag1": "Flag 1"
+      }
     }
   ]
 }
